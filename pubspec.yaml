@@ -1,0 +1,79 @@
+name: mission_rakshak
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  bottom_navy_bar: ^6.0.0
+  #  google_map_location_picker: ^3.3.4
+  #  google_maps_flutter: ^0.5.30
+
+  geolocator: ^7.0.3
+  url_launcher: ^6.0.4
+  map_launcher: ^2.0.0
+
+  settings_ui: ^1.0.0
+  fluttertoast: ^8.0.6
+  status_alert: ^0.1.3
+
+  introduction_screen: ^2.1.0
+
+  #qr
+  qr_flutter: ^4.0.0
+  flutter_barcode_scanner: ^2.0.0
+
+  #Firebase
+  firebase_core: ^1.2.0
+  firebase_auth: ^1.2.0
+  cloud_firestore: ^2.1.0
+  firebase_messaging: ^10.0.1
+
+dependency_overrides:
+  intl: ^0.17.0-nullsafety.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.png
+    - assets/images/illustrations/auth.png
+    - assets/images/illustrations/nointernet.png
+    - assets/images/illustrations/forgotpass.png
+    - assets/images/intro/1-red.png
+    - assets/images/intro/2-red.png
+    - assets/images/intro/3-red.png
+    - assets/images/intro/4-red.png
+    - assets/images/auth/google.png
+    - assets/images/auth/apple.png
+    - assets/images/auth/facebook.png
+    - assets/images/auth/microsoft.png
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 500
+    - family: Podkova
+      fonts:
+        - asset: assets/fonts/Podkova-Regular.ttf
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: JetBrains Mono
+      fonts:
+        - asset: assets/fonts/JetBrainsMono-Regular.ttf
